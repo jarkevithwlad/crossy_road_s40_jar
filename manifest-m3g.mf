@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+MIDlet-Name: Crossy Road S40 M3G
+MIDlet-Version: 0.2.13
+MIDlet-Vendor: WlaDiS
+MIDlet-1: Crossy Road S40 M3G,,CrossyRoadS40M3GMidlet
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+MIDlet-Name: Crossy Road S40 Scene
+MIDlet-Version: 0.1.6
+MIDlet-Vendor: WlaDiS
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: Crossy Road S40,,CrossyRoadS40Midlet
