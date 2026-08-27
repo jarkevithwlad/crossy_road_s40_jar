@@ -1,39 +1,41 @@
+[Русская версия / Russian version](README.ru.md)
+
 # Crossy Road S40
 
-Исходники порта Crossy Road для Java ME / Nokia Series 40.
+Source code for a Crossy Road port to Java ME / Nokia Series 40.
 
-В репозитории уже находятся сгенерированные Java-меши и уменьшенные PNG-текстуры, поэтому для обычной сборки исходный Expo-проект не требуется.
+The repository already contains generated Java meshes and reduced PNG textures, so the original Expo project is not required for a regular build.
 
-## Требования
+## Requirements
 
 - Windows PowerShell;
-- JDK 8 (укажите его через переменную среды `JAVA_HOME` или добавьте `javac` в `PATH`).
+- JDK 8 (set it through the `JAVA_HOME` environment variable or add `javac` to `PATH`).
 
-Java ME API, M3G compile-time stubs и ProGuard 5.3.3 находятся в `third-party/` и подключаются относительно корня проекта.
+The Java ME API, M3G compile-time stubs, and ProGuard 5.3.3 are included in `third-party/` and referenced relative to the project root.
 
-## Сборка
+## Build
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\build.ps1
 powershell -ExecutionPolicy Bypass -File .\build-m3g.ps1
 ```
 
-Чтобы заново конвертировать модели из отдельного Expo-проекта, используйте необязательные параметры:
+To convert models again from a separate Expo project, use the optional parameters:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\build-m3g.ps1 -RegenerateAssets -SourceProject ..\expo-project
 ```
 
-Обычная сборка использует только файлы этого каталога и не обращается к абсолютным путям.
+The regular build uses only files from this directory and does not rely on absolute paths.
 
-## Горячие клавиши
+## Controls
 
-- `↑/↓/←/→` или `2/8/4/6` — управление персонажем;
-- `#` — переключение ориентации: Portrait, Rotate left, Rotate right, Native landscape;
-- `*` — переключение масштаба 3D-рендера: `100%`, `90%`, …, `20%`;
-- любая клавиша после Game Over — начать игру заново.
+- `↑/↓/←/→` or `2/8/4/6` — move the character;
+- `#` — switch orientation: Portrait, Rotate left, Rotate right, Native landscape;
+- `*` — switch the 3D renderer scale: `100%`, `90%`, …, `20%`;
+- press any key after Game Over to start a new game.
 
-## Источник ассетов
+## Asset source
 
-Проект портирован на основе исходного проекта [EvanBacon/Expo-Crossy-Road](https://github.com/EvanBacon/Expo-Crossy-Road).
-Модели и связанные с ними исходные ассеты взяты из этого проекта.
+This project is ported from the original [EvanBacon/Expo-Crossy-Road](https://github.com/EvanBacon/Expo-Crossy-Road) project.
+The models and their related source assets were taken from that project.
