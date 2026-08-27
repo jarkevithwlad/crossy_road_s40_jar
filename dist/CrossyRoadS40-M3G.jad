@@ -1,0 +1,9 @@
+MIDlet-Name: Crossy Road
+MIDlet-Version: 0.2.13
+MIDlet-Vendor: WlaDiS
+MIDlet-1: Crossy Road,,CrossyRoadS40M3GMidlet
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: CrossyRoadS40-M3G.jar
+MIDlet-Jar-Size: 188897
+
