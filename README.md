@@ -26,6 +26,13 @@ powershell -ExecutionPolicy Bypass -File .\build-m3g.ps1 -RegenerateAssets -Sour
 
 Обычная сборка использует только файлы этого каталога и не обращается к абсолютным путям.
 
+## Горячие клавиши
+
+- `↑/↓/←/→` или `2/8/4/6` — управление персонажем;
+- `#` — переключение ориентации: Portrait, Rotate left, Rotate right, Native landscape;
+- `*` — переключение масштаба 3D-рендера: `100%`, `90%`, …, `20%`;
+- любая клавиша после Game Over — начать игру заново.
+
 ## Источник ассетов
 
 Проект портирован на основе исходного проекта [EvanBacon/Expo-Crossy-Road](https://github.com/EvanBacon/Expo-Crossy-Road).
