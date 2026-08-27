@@ -25,3 +25,8 @@ powershell -ExecutionPolicy Bypass -File .\build-m3g.ps1 -RegenerateAssets -Sour
 ```
 
 Обычная сборка использует только файлы этого каталога и не обращается к абсолютным путям.
+
+## Источник ассетов
+
+Проект портирован на основе исходного проекта [EvanBacon/Expo-Crossy-Road](https://github.com/EvanBacon/Expo-Crossy-Road).
+Модели и связанные с ними исходные ассеты взяты из этого проекта.
